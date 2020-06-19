@@ -1,0 +1,48 @@
+.header {
+	background-color: #14213D;
+	margin-top: 0;
+	padding: 20px 20px 20px 40px;
+
+}
+
+.header h1, .header h1 a, .header h1 a:visited, .header h1 a:active {
+	color: #e5e5e5;
+	font-size: 36pt;
+	text-decoration: none;
+	
+}
+
+.content-container {
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+.row {
+	margin-right: 0;
+
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Lobster', cursive;
+
+}
+
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited{
+    color: #14213D;
+}
+
+.post h2 a:hover {
+	color: #fca311;
+}
+
+.post .date {
+	font-weight: bold;
+	color:#14213D;
+	background-color: #fca311;
+}
