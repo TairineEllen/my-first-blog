@@ -12,6 +12,9 @@
 
 	<body>
 		<div class="header">
+			{% if user.is_authenticaded %}
+				<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+			{% endif %}
 			<h1><a href="/">Aprendendo Django</a></h1>
 		</div>
 
